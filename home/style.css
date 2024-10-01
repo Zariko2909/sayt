@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+  text-align: center;
+  height: 15px;
+  padding: 12px 20px;
+} 
+.navbar a {
+  text-transform: capitalize;
+  color: white;
+  text-decoration-line: none;
+  padding: 18px 20px 18px 20px;
+  font-size: 12px;
+}
+h1{
+  text-indent: 4px;
+  padding: 10px 8px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  text-indent: 10px;
+  font-size: 12px;
+}
+h2{
+  padding: 10px 8px;
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 4px;
+}
+.dec{ 
+  background: white;
+margin: 10px;
+}
+h3{
+  padding: 10px 6px;
+  font-size: 13px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 4px;
+}
+.dec .test{
+text-decoration: underline;
+text-transform: uppercase;
+line-height: 20px;
+}
+.dec .test1{
+text-decoration: line-through;
+text-transform: lowercase;
+line-height: 20px;
+}
+.dec .test2{
+  text-decoration: overline;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+.ind{
+  background: white;
+  margin: 10px;
+}
+.ind p{
+  text-indent: 50px;
+  word-spacing: 20px; 
+  padding-bottom: 10px;
+  
+}
+.line {
+  background: white;
+ margin: 10px;
+}
+.line h3{
+  padding: 10px 6px;
+  font-size: 13px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 4px;
+}
+.line p{
+  line-height: 20px;
+  padding-bottom: 10px;;
+}
+.first{
+  background: white;
+  margin: 10px;
+}
+.first h3{
+  padding: 10px 6px;
+  font-size: 13px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 4px;
+}
+.first p::first-letter{
+  font-size: 40px;
+  color: blue;
+}
+.first p::first-line{
+  color: blue;
+}
+.shad{
+  background: white;
+ margin: 10px;
+}
+.shad h3{
+  padding: 10px 6px;
+  font-size: 13px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 4px;
+}
+.shad .test{
+  opacity: 0.5;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.shad .test1{
+  padding-bottom: 15px;
+  line-height: 2px;
+  margin-bottom: 15px;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+}

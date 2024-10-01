@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: black;
+    text-align: center;
+    height: 15px;
+    padding: 12px 20px;
+  } 
+  .navbar a {
+    text-transform: capitalize;
+    color: white;
+    text-decoration-line: none;
+    padding: 18px 20px 18px 20px;
+    font-size: 12px;
+  }
+  h1{
+    text-indent: 4px;
+    padding: 10px 8px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    padding: 10px 8px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 4px;
+  }
+  p{
+    display: block;
+    text-indent: 10px;
+    font-size: 12px;
+  }
+  .box1{
+    display: inline-block;
+border: solid 2px;
+padding: 30px;
+border-color: blue;
+width: 180px;
+margin: 10px;
+
+  }
+  .box2{
+    display: inline-block;
+border: dashed 2px;
+margin: 10px;
+padding: 30px;
+border-color: green;
+background-color: rgb(183, 223, 105);
+width: 250px;
+  }
+  .box3{
+    display: inline-block;
+    border: solid 4px;
+    margin-top: 20px;
+    padding: 30px;
+    border-color:red;
+width: 300px;
+background-color: rgb(249, 115, 115);
+height: 35px;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+  }
